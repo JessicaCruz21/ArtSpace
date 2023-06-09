@@ -4,44 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artespace</title>
-    <link ref=stylesheet href="estilos.css">
+    <title>ArtSpace</title>
+    <link rel="stylesheet" href="Css/estilosequipo5.css">
 </head>
 <body>
-    <header>
-        <h1 id="Principal">Blog de arte</h1>
-        <nav>
-            <div>
-            <button class="Nav"><a href="#Inicio">Inicio</a> </button>
-            <button class="Nav"><a href="Imagenes.html">Imagenes</a> </button>
-            <button class="Nav"><a href="Videos.html">Videos</a> </button>
-            <button class="Nav"><a href="Tips.html">Tips</a> </button>
-            <button class="Nav"><a href="Perfil.html">Perfil</a> </button>
-            <button class="Nav"><a href="formulario.html">Subir contenido</a> </button>   
-            </div>
-        </nav>
+    <header class="header">
+            <nav class="navegador">
+                <ul class="navegador__lista">
+                    <li class="navegador__lista-item navegador__lista-item--inicio"><a href="#Inicio" class="navegador__lista-link navegador__lista-link--inicio"><img class="navegador__lista-icono" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Inicio"></a></li>
+                    <li class="navegador__lista-item navegador__lista-item--imagenes"><a href="imagenes.html" class="navegador__lista-link">Imágenes</a></li>
+                    <li class="navegador__lista-item navegador__lista-item--videos"><a href="videos.html" class="navegador__lista-link">Videos</a></li>
+                    <li class="navegador__lista-item navegador__lista-item--tips"><a href="tips.html" class="navegador__lista-link">Tips</a></li>
+                    <li class="navegador__lista-item navegador__lista-item--formulario"><a href="formulario.html" class="navegador__lista-link">Subir contenido</a></li>
+                    <li class="navegador__lista-item navegador__lista-item--perfil"><a href="perfil.html" class="navegador__lista-link navegador__lista-link--perfil"><img class="navegador__lista-icono" src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="Perfil"></a></li>
+                    </ul>
+            </nav>
     </header>
-
-    <main>
-        <section id="Inicio">
-            <h2 id="tituloincio">Encuentra tu estilo y comparte tus creaciones</h2>
-            <div>
-                <fig></fig>
+    <main class="main">
+        <section class="arte-seccion">
+            <div class="arte-seccion__content">
+              <h1 class="arte-seccion__texto">ArtSpace</h1>
             </div>
-            <div class="boardinicio">
-                <h3 class="h3inicio">Imagenes</h3>
-                <button title="Imagenes"><a href="#Imagenes"><img src="https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&w=800"></a></button>
-                <h3 class="h3inicio">Videos</h3>
-                <button title="Videos"><a href="#Videos"><img src="https://images.pexels.com/photos/1340502/pexels-photo-1340502.jpeg?auto=compress&cs=tinysrgb&w=800"></a></button>
-                <h3 class="h3inicio">Tips</h3>
-                <button title="Tips"><a href="#Tips"><img src="https://images.pexels.com/photos/1084406/pexels-photo-1084406.jpeg?auto=compress&cs=tinysrgb&w=800"></a></button>
-                <h3 class="h3inicio">Perfil</h3>
-                <button title="Perfil"><a href="#Miperfil"></a><img src="https://images.pexels.com/photos/933255/pexels-photo-933255.jpeg?auto=compress&cs=tinysrgb&w=800"></a></button>
-                </div>
-            <button id="botonincio"><a href="#Subircontenido"></a></button>
         </section>
-        <br> <br>
-
+        <br>
+        <br>
+    
+          <section class="imagen-grid">
+            <div class="imagen-grid__elemento">
+              <a href="imagenes.html" class="imagen-grid__link">
+                <h2 class="imagen-grid__titulo">Imágenes</h2> 
+              </a>       
+              <img src="https://images.pexels.com/photos/1561020/pexels-photo-1561020.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="pintura">    
+            </div>
+            <div class="imagen-grid__elemento">
+              <a href="enlace2.html" class="imagen-grid__link">
+                <h2 class="imagen-grid__titulo">Videos</h2>
+              </a>
+              <img src="https://images.pexels.com/photos/3094218/pexels-photo-3094218.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="videos">
+            </div>
+            <div class="imagen-grid__elemento">
+              <a href="tips.html" class="imagen-grid__link">
+                <h2 class="imagen-grid__titulo">Tips</h2>
+              </a>
+              <img src="https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="tips">
+            </div>
+            </section>
+            <br>
+            <br>
+        <section class="boton">
+            <a href="perfil.html" class="boton--azul">Ir al perfil</a>
+        </section>
+            <br>
+            <br>
+          
     </main>
+    <footer class="footer">
+    </footer>
+</body>
+</html>
+
 </body>
 </html>
