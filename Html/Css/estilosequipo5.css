@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Bagel Fat One';
-    src: url(ARTSPACE/Tipografías/BagelFatOne-Regular.ttf);
+    src: url('Tipografías/BagelFatOne-Regular.ttf');
 }
 
 h1,h2,h3,h4,h5,h6 {font-family: fantasy;}
