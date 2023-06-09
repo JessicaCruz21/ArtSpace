@@ -5,7 +5,9 @@
 }
 
 @font-face {
-    font-family: 'Bagel Fat One';
+    font-family: 'BagelFatOne';
+    src: url('Tipografías/BagelFatOne-Regular.ttf');
+    font-family: 'DidactGothic';
     src: url('Tipografías/BagelFatOne-Regular.ttf');
 }
 
@@ -23,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {font-family: fantasy;}
     list-style: none;
     display: flex;
     width: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'BageFatOne', 'fanatsy' ;
   }
   
   .navegador__lista-item {
@@ -51,7 +53,6 @@ h1,h2,h3,h4,h5,h6 {font-family: fantasy;}
   .navegador__lista-link--inicio {
     font-weight: bold;
   }
-  
   
   .navegador__lista-icono {
     width: 40px;
@@ -99,7 +100,7 @@ h1,h2,h3,h4,h5,h6 {font-family: fantasy;}
 
   }
   .articulo__texto{    
-    font-family: monospace;
+    font-family: monospace, 'BageFatOne', 'fanatsy' ;
     font-size: 18px;}
 
   .grid {
@@ -164,7 +165,7 @@ footer {background-color: #0088AB;
   text-align: left;
   padding: 5 px;
   margin: 2 px;
-  font-family: monospace;
+  font-family: monospace, 'BageFatOne', 'fanatsy' ;
 }
 
 .footer__img {
